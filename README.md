@@ -1,18 +1,68 @@
-# Salesforce DX Project: Next Steps
+# Anontine
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Anontine is an anonymous messaging platform built using Salesforce LWC (Lightning Web Components) and deployed as an Experience Site. It allows users to send anonymous messages to friends, colleagues, loved ones, or anyone without revealing their identity.
 
-## How Do You Plan to Deploy Your Changes?
+## Features
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+- **Anonymous Messaging**: Users can send and receive messages without revealing their identity.
+- **LWC & Experience Site**: Built using Salesforce Lightning Web Components and deployed via Experience Cloud.
+- **User-Friendly Interface**: Clean and modern UI using LWC principles.
+- **Secure & Private**: Data is stored securely with proper access controls.
 
-## Configure Your Salesforce DX Project
+## Tech Stack
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+- **Salesforce** (LWC, Apex, Experience Cloud)
+- **JavaScript**
+- **HTML & CSS**
+- **Git/GitHub** for version control
 
-## Read All About It
+## Installation & Setup
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/anuragnarok/anontine.git
+   cd anontine
+   ```
+
+2. **Authorize Salesforce Org**:
+   ```bash
+   sfdx auth:web:login
+   ```
+
+3. **Push the project to your Salesforce Org**:
+   ```bash
+   sfdx force:source:push
+   ```
+
+4. **Assign permissions** (if required):
+   ```bash
+   sfdx force:user:permset:assign -n YourPermissionSet
+   ```
+
+5. **Open the Experience Site**:
+   ```bash
+   sfdx force:org:open
+   ```
+
+## Usage
+
+- Users can visit the Anontine Experience Site and send anonymous messages.
+- Messages are delivered securely while keeping the sender anonymous.
+
+## Contribution
+
+If you’d like to contribute:
+- Fork the repo
+- Create a new branch (`git checkout -b feature-branch`)
+- Make your changes and commit (`git commit -m "Added new feature"`)
+- Push the branch (`git push origin feature-branch`)
+- Open a pull request
+
+## License
+
+This project is licensed under the MIT License. Feel free to modify and use it as needed.
+
+---
+
+🚀 Built with 💙 using Salesforce LWC & Experience Cloud!
+
