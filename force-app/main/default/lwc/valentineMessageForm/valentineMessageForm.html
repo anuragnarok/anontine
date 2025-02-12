@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="💌 Hi ! Welcome to Anontine! Please convey a message for your loved one or enemy, anonymously!!">
+        <div class="slds-p-around_medium">
+            <lightning-textarea label="Your Message" placeholder="Enter your secret message" value={messageText} onchange={handleInput}></lightning-textarea>
+            <lightning-button label="Post" onclick={submitMessage} class="slds-m-top_medium"></lightning-button>
+        </div>
+    </lightning-card>
+</template>

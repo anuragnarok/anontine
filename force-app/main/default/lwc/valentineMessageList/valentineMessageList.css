@@ -1,0 +1,63 @@
+
+.message-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.message-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    border-left: 5px solid #ff6b81;
+}
+
+.message-text {
+    font-size: 16px;
+    color: #b9b3b3;
+    margin-bottom: 5px;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: #777;
+}
+
+.emoji-reactions button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.message-card {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 2px solid #FF1493;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.emoji-reactions button {
+    background: #FF1493;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.emoji-reactions button:hover {
+    background: #E91E63; /* Slightly darker pink */
+}
+
+.slds-text-color_weak, 
+.slds-text-color_default, 
+.slds-text-heading_medium, 
+.slds-text-title {
+    color: white !important;
+}

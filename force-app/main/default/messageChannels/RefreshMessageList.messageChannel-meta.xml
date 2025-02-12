@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata/lightningMessageChannel">
+    <masterLabel>RefreshMessageList</masterLabel>
+    <description>Channel to notify the message list to refresh.</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <fieldName>refresh</fieldName>
+        <description>Refresh trigger</description>
+    </lightningMessageFields>
+</LightningMessageChannel>

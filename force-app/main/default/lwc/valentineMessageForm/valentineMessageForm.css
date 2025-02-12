@@ -1,0 +1,19 @@
+:host {
+    display: block;
+    background-color: #1A1A1A; /* Dark background */
+    padding: 15px;
+    border-radius: 8px;
+    color: #FFFFFF; /* White text */
+}
+
+lightning-card {
+    background: #000000;
+    color: #FF1493;
+    border: 2px solid #FF1493;
+}
+
+lightning-button {
+    background-color: #FF1493;
+    color: white;
+    border-radius: 5px;
+}
